@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Image without contentDescription -->
+    <issue id="ContentDescription" severity="error" />
+
+    <!-- addJavascriptInterface Called -->
+    <issue id="AddJavascriptInterface" severity="error" />
+
+    <!-- Short or Frequent Alarm -->
+    <issue id="ShortAlarm" severity="error" />
+
+    <!-- Combining textAllCaps and markup -->
+    <issue id="AllCaps" severity="error" />
+
+    <!-- Insecure HostnameVerifier -->
+    <issue id="AllowAllHostnameVerifier" severity="error" />
+
+    <!-- Usage of showAsAction=always -->
+    <issue id="AlwaysShowAction" severity="error" />
+
+    <!-- Invalid name attribute for uses element. -->
+    <issue id="InvalidUsesTagAttribute" severity="error" />
+
+    <!-- Missing intent-filter with action -->
+    <issue id="MissingIntentFilterForMediaSearch" severity="error" />
+
+    <!-- Missing intent-filter with action -->
+    <issue id="MissingMediaBrowserServiceIntentFilter" severity="error" />
+
+    <!-- Missing onPlayFromSearch. -->
+    <issue id="MissingOnPlayFromSearch" severity="error" />
+
+    <!-- Hardware feature touchscreen not explicitly -->
+    <issue id="ImpliedTouchscreenHardware" severity="error" />
+
+    <!-- TV Missing Banner -->
+    <issue id="MissingTvBanner" severity="error" />
+
+    <!-- Missing Leanback Launcher Intent Filter. -->
+    <issue id="MissingLeanbackLauncher" severity="error" />
+
+    <!-- Missing Leanback Support. -->
+    <issue id="MissingLeanbackSupport" severity="error" />
+
+    <!-- Permission Implies Unsupported -->
+    <issue id="PermissionImpliesUnsupportedHardware" severity="error" />
+
+    <!-- Unsupported TV Hardware Feature -->
+    <issue id="UnsupportedTvHardware" severity="error" />
+
+    <!-- Incorrect support annotation usage -->
+    <issue id="SupportAnnotationUsage" severity="error" />
+
+    <!-- Dangerous Flag Constant Declaration -->
+    <issue id="ShiftFlags" severity="error" />
+
+    <!-- @SuppressLint on invalid element -->
+    <issue id="LocalSuppress" severity="error" />
+
+    <!-- Missing @IntDef in Switch -->
+    <issue id="SwitchIntDef" severity="error" />
+
+    <!-- Overlapping Enumeration Constants -->
+    <issue id="UniqueConstants" severity="error" />
+
+    <!-- Using inlined constants on older versions -->
+    <issue id="InlinedApi" severity="error" />
+
+    <!-- Method conflicts with new inherited method -->
+    <issue id="Override" severity="error" />
+
+    <!-- Obsolete SDK_INT Version Check -->
+    <issue id="ObsoleteSdkInt" severity="error" />
+
+    <!-- Calling new methods on older versions -->
+    <issue id="NewApi" severity="error" />
+
+    <!-- Attribute unused on older versions -->
+    <issue id="UnusedAttribute" severity="error" />
+
+    <!-- Using Wrong AppCompat Method -->
+    <issue id="AppCompatMethod" severity="error" />
+
+    <!-- Appcompat Custom Widgets -->
+    <issue id="AppCompatCustomView" severity="error" />
+
+    <!-- Menu namespace -->
+    <issue id="AppCompatResource" severity="error" />
+
+    <!-- Missing support for Firebase App Indexing Api -->
+    <issue id="GoogleAppIndexingApiWarning" severity="ignore" />
+
+    <!-- URL not supported by app for Firebase App -->
+    <issue id="GoogleAppIndexingUrlError" severity="ignore" />
+
+    <!-- Missing support for Firebase App Indexing -->
+    <issue id="GoogleAppIndexingWarning" severity="ignore" />
+
+    <!-- App Links Auto Verification Failure -->
+    <issue id="AppLinksAutoVerifyError" severity="error" />
+
+    <!-- Potential App Links Auto Verification Failure -->
+    <issue id="AppLinksAutoVerifyWarning" severity="error" />
+
+    <!-- Inconsistencies in array element counts -->
+    <issue id="InconsistentArrays" severity="error" />
+
+    <!-- Assertions -->
+    <issue id="Assert" severity="error" />
+
+    <!-- Insecure HostnameVerifier -->
+    <issue id="BadHostnameVerifier" severity="error" />
+
+    <!-- Battery Life Issues -->
+    <issue id="BatteryLife" severity="error" />
+
+    <!-- Back button -->
+    <issue id="BackButton" severity="error" />
+
+    <!-- Cancel/OK dialog button capitalization -->
+    <issue id="ButtonCase" severity="error" />
+
+    <!-- Button order -->
+    <issue id="ButtonOrder" severity="error" />
+
+    <!-- Button should be borderless -->
+    <issue id="ButtonStyle" severity="error" />
+
+    <!-- Byte order mark inside files -->
+    <issue id="ByteOrderMark" severity="error" />
+
+    <!-- Missing Super Call -->
+    <issue id="MissingSuperCall" severity="error" />
+
+    <!-- AdapterViews cannot have children in XML -->
+    <issue id="AdapterViewChildren" severity="error" />
+
+    <!-- ScrollViews can have only one child -->
+    <issue id="ScrollViewCount" severity="error" />
+
+    <!-- Permission Implies Unsupported -->
+    <issue id="PermissionImpliesUnsupportedChromeOsHardware" severity="error" />
+
+    <!-- Unsupported Chrome OS Hardware Feature -->
+    <issue id="UnsupportedChromeOsHardware" severity="error" />
+
+    <!-- Cipher.getInstance with ECB -->
+    <issue id="GetInstance" severity="error" />
+
+    <!-- Missing commit() calls -->
+    <issue id="CommitTransaction" severity="error" />
+
+    <!-- Missing recycle() calls -->
+    <issue id="Recycle" severity="error" />
+
+    <!-- Missing commit() on SharedPreference editor -->
+    <issue id="CommitPrefEdits" severity="error" />
+
+    <!-- Use apply() on SharedPreferences -->
+    <issue id="ApplySharedPref" severity="error" />
+
+    <!-- Accessibility in Custom Views -->
+    <issue id="ClickableViewAccessibility" severity="error" />
+
+    <!-- Code contains easter egg -->
+    <issue id="EasterEgg" severity="error" />
+
+    <!-- Code contains STOPSHIP marker -->
+    <issue id="StopShip" severity="error" />
+
+    <!-- Missing Constraints in ConstraintLayout -->
+    <issue id="MissingConstraints" severity="error" />
+
+    <!-- Vulnerable Cordova Version -->
+    <issue id="VulnerableCordovaVersion" severity="error" />
+
+    <!-- Mismatched Styleable/Custom View Name -->
+    <issue id="CustomViewStyleable" severity="error" />
+
+    <!-- Likely cut & paste mistakes -->
+    <issue id="CutPasteId" severity="error" />
+
+    <!-- Implied locale in date format -->
+    <issue id="SimpleDateFormat" severity="error" />
+
+    <!-- TextView Internationalization -->
+    <issue id="SetTextI18n" severity="error" />
+
+    <!-- Using deprecated resources -->
+    <issue id="Deprecated" severity="error" />
+
+    <!-- Missing Android XML namespace -->
+    <issue id="MissingPrefix" severity="error" />
+
+    <!-- Mangled file line endings -->
+    <issue id="MangledCRLF" severity="error" />
+
+    <!-- Duplicate ids across layouts combined with include -->
+    <issue id="DuplicateIncludedIds" severity="error" />
+
+    <!-- Duplicate ids within a single layout -->
+    <issue id="DuplicateIds" severity="error" />
+
+    <!-- Duplicate definitions of resources -->
+    <issue id="DuplicateDefinition" severity="error" />
+
+    <!-- Incorrect reference types -->
+    <issue id="ReferenceType" severity="error" />
+
+    <!-- Invalid string escapes -->
+    <issue id="StringEscaping" severity="error" />
+
+    <!-- Missing android -->
+    <issue id="UnpackedNativeCode" severity="error" />
+
+    <!-- load used to dynamically load code -->
+    <issue id="UnsafeDynamicallyLoadedCode" severity="error" />
+
+    <!-- Native code outside library directory -->
+    <issue id="UnsafeNativeCodeLocation" severity="error" />
+
+    <!-- Extraneous text in resource files -->
+    <issue id="ExtraText" severity="error" />
+
+    <!-- Using getter instead of field -->
+    <issue id="FieldGetter" severity="error" />
+
+    <!-- Invalid Analytics Name -->
+    <issue id="InvalidAnalyticsName" severity="error" />
+
+    <!-- Missing Firebase Instance ID Token -->
+    <issue id="MissingFirebaseInstanceTokenRefresh" severity="error" />
+
+    <!-- Valid Full Backup Content File -->
+    <issue id="FullBackupContent" severity="error" />
+
+    <!-- Fragment not instantiatable -->
+    <issue id="ValidFragment" severity="error" />
+
+    <!-- Potential Multiple Certificate Exploit -->
+    <issue id="PackageManagerGetSignatures" severity="error" />
+
+    <!-- Accidental Octal -->
+    <issue id="AccidentalOctal" severity="error" />
+
+    <!-- Use of bundled version of Google Play -->
+    <issue id="UseOfBundledGooglePlayServices" severity="error" />
+
+    <!-- Incompatible Gradle Versions -->
+    <issue id="GradleCompatible" severity="error" />
+
+    <!-- Obsolete Gradle Dependency -->
+    <issue id="GradleDependency" severity="error" />
+
+    <!-- Deprecated Gradle Construct -->
+    <issue id="GradleDeprecated" severity="error" />
+
+    <!-- Gradle Implicit Getter Call -->
+    <issue id="GradleGetter" severity="error" />
+
+    <!-- Incompatible Android Gradle Plugin -->
+    <issue id="GradlePluginVersion" severity="error" />
+
+    <!-- VersionCode too high -->
+    <issue id="HighAppVersionCode" severity="error" />
+
+    <!-- Gradle IDE Support Issues -->
+    <issue id="GradleIdeError" severity="error" />
+
+    <!-- Gradle Path Issues -->
+    <issue id="GradlePath" severity="error" />
+
+    <!-- Gradle Dynamic Version -->
+    <issue id="GradleDynamicVersion" severity="error" />
+
+    <!-- Incorrect Interpolation -->
+    <issue id="NotInterpolated" severity="error" />
+
+    <!-- String should be int -->
+    <issue id="StringShouldBeInt" severity="error" />
+
+    <!-- Newer Library Versions Available -->
+    <issue id="NewerVersionAvailable" severity="error" />
+
+    <!-- GridLayout validation -->
+    <issue id="GridLayout" severity="error" />
+
+    <!-- Handler reference leaks -->
+    <issue id="HandlerLeak" severity="error" />
+
+    <!-- Hardcoded value of android -->
+    <issue id="HardcodedDebugMode" severity="error" />
+
+    <!-- Hardcoded text -->
+    <issue id="HardcodedText" severity="error" />
+
+    <!-- Hardware Id Usage -->
+    <issue id="HardwareIds" severity="error" />
+
+    <!-- Identical bitmaps across various configurations -->
+    <issue id="IconDuplicatesConfig" severity="error" />
+
+    <!-- Duplicated icons under different names -->
+    <issue id="IconDuplicates" severity="error" />
+
+    <!-- Using .gif format for bitmaps is discouraged -->
+    <issue id="GifUsage" severity="error" />
+
+    <!-- Icon colors do not follow the recommended visual style -->
+    <issue id="IconColors" severity="error" />
+
+    <!-- Icon densities validation -->
+    <issue id="IconDensities" severity="error" />
+
+    <!-- Icon density-independent size validation -->
+    <issue id="IconDipSize" severity="error" />
+
+    <!-- Icon has incorrect size -->
+    <issue id="IconExpectedSize" severity="warning" />
+
+    <!-- Icon format does not match the file extension -->
+    <issue id="IconExtension" severity="error" />
+
+    <!-- Wrong launcher icon format -->
+    <issue id="IconLauncherFormat" severity="error" />
+
+    <!-- The launcher icon shape should use a distinct silhouette -->
+    <issue id="IconLauncherShape" severity="error" />
+
+    <!-- Image defined in density-independent drawable folder -->
+    <issue id="IconLocation" severity="error" />
+
+    <!-- Missing density folder -->
+    <issue id="IconMissingDensityFolder" severity="error" />
+
+    <!-- Clashing PNG and 9-PNG files -->
+    <issue id="IconMixedNinePatch" severity="error" />
+
+    <!-- Icon appears in both -nodpi and dpi folders -->
+    <issue id="IconNoDpi" severity="error" />
+
+    <!-- Icon is specified both as .xml file and as a bitmap -->
+    <issue id="IconXmlAndPng" severity="error" />
+
+    <!-- Convert to WebP -->
+    <issue id="ConvertToWebp" severity="error" />
+
+    <!-- WebP Unsupported -->
+    <issue id="WebpUnsupported" severity="error" />
+
+    <!-- Ignored layout params on include -->
+    <issue id="IncludeLayoutParam" severity="error" />
+
+    <!-- Missing baselineAligned attribute -->
+    <issue id="DisableBaselineAlignment" severity="error" />
+
+    <!-- Inefficient layout weight -->
+    <issue id="InefficientWeight" severity="error" />
+
+    <!-- Nested layout weights -->
+    <issue id="NestedWeights" severity="error" />
+
+    <!-- Missing explicit orientation -->
+    <issue id="Orientation" severity="error" />
+
+    <!-- Suspicious 0dp dimension -->
+    <issue id="Suspicious0dp" severity="error" />
+
+    <!-- Unnecessary Divider Copy -->
+    <issue id="DuplicateDivider" severity="error" />
+
+    <!-- Insecure TLS/SSL trust manager -->
+    <issue id="TrustAllX509TrustManager" severity="error" />
+
+    <!-- Package not included in Android -->
+    <issue id="InvalidPackage" severity="error" />
+
+    <!-- Memory allocations within drawing code -->
+    <issue id="DrawAllocation" severity="error" />
+
+    <!-- HashMap can be replaced with SparseArray -->
+    <issue id="UseSparseArrays" severity="error" />
+
+    <!-- Should use valueOf instead of new -->
+    <issue id="UseValueOf" severity="error" />
+
+    <!-- Missing @JavascriptInterface on methods -->
+    <issue id="JavascriptInterface" severity="error" />
+
+    <!-- Missing labelFor attribute -->
+    <issue id="LabelFor" severity="error" />
+
+    <!-- Inconsistent Layouts -->
+    <issue id="InconsistentLayout" severity="error" />
+
+    <!-- Layout Inflation without a Parent -->
+    <issue id="InflateParams" severity="error" />
+
+    <!-- Static Field Leaks -->
+    <issue id="StaticFieldLeak" severity="error" />
+
+    <!-- Implied default locale in case conversion -->
+    <issue id="DefaultLocale" severity="error" />
+
+    <!-- Wrong locale name -->
+    <issue id="LocaleFolder" severity="error" />
+
+    <!-- Invalid Resource Folder -->
+    <issue id="InvalidResourceFolder" severity="error" />
+
+    <!-- Suspicious Language/Region Combination -->
+    <issue id="WrongRegion" severity="error" />
+
+    <!-- Using 3-letter Codes -->
+    <issue id="UseAlpha2" severity="error" />
+
+    <!-- Unconditional Logging Calls -->
+    <issue id="LogConditional" severity="error" />
+
+    <!-- Too Long Log Tags -->
+    <issue id="LongLogTag" severity="error" />
+
+    <!-- Mismatched Log Tags -->
+    <issue id="LogTagMismatch" severity="error" />
+
+    <!-- AllowBackup/FullBackupContent Problems -->
+    <issue id="AllowBackup" severity="warning" />
+
+    <!-- Missing application icon -->
+    <issue id="MissingApplicationIcon" severity="error" />
+
+    <!-- Malformed Device Admin -->
+    <issue id="DeviceAdmin" severity="error" />
+
+    <!-- Activity registered more than once -->
+    <issue id="DuplicateActivity" severity="error" />
+
+    <!-- Feature declared more than once -->
+    <issue id="DuplicateUsesFeature" severity="error" />
+
+    <!-- Value overridden by Gradle build script -->
+    <issue id="GradleOverrides" severity="error" />
+
+    <!-- Name and version must be integer or string, not -->
+    <issue id="IllegalResourceRef" severity="error" />
+
+    <!-- Use Mipmap Launcher Icons -->
+    <issue id="MipmapIcons" severity="error" />
+
+    <!-- Using mock location provider in production -->
+    <issue id="MockLocation" severity="error" />
+
+    <!-- Multiple <uses-sdk> elements in the manifest -->
+    <issue id="MultipleUsesSdk" severity="error" />
+
+    <!-- Incorrect order of elements in manifest -->
+    <issue id="ManifestOrder" severity="error" />
+
+    <!-- Missing application name/version -->
+    <issue id="MissingVersion" severity="error" />
+
+    <!-- Target SDK attribute is not targeting latest version -->
+    <issue id="OldTargetApi" severity="error" />
+
+    <!-- Permission names are not unique -->
+    <issue id="UniquePermission" severity="error" />
+
+    <!-- Minimum SDK and target SDK attributes not defined -->
+    <issue id="UsesMinSdkAttributes" severity="error" />
+
+    <!-- Usage of Android Wear BIND_LISTENER is deprecated -->
+    <issue id="WearableBindListener" severity="error" />
+
+    <!-- Wrong manifest parent -->
+    <issue id="WrongManifestParent" severity="error" />
+
+    <!-- Invalid Permission Attribute -->
+    <issue id="InvalidPermission" severity="error" />
+
+    <!-- Manifest Resource References -->
+    <issue id="ManifestResource" severity="error" />
+
+    <!-- Typos in manifest tags -->
+    <issue id="ManifestTypo" severity="error" />
+
+    <!-- Using FloatMath instead of Math -->
+    <issue id="FloatMath" severity="error" />
+
+    <!-- Code contains merge marker -->
+    <issue id="MergeMarker" severity="error" />
+
+    <!-- FrameLayout can be replaced with <merge> tag -->
+    <issue id="MergeRootFrame" severity="error" />
+
+    <!-- Inner classes should use $ rather than . -->
+    <issue id="InnerclassSeparator" severity="error" />
+
+    <!-- Registered class is not instantiatable -->
+    <issue id="Instantiatable" severity="error" />
+
+    <!-- Missing registered class -->
+    <issue id="MissingRegistered" severity="error" />
+
+    <!-- Fragments should specify an id or tag -->
+    <issue id="MissingId" severity="error" />
+
+    <!-- Custom views in libraries should use res-auto-namespace -->
+    <issue id="LibraryCustomView" severity="error" />
+
+    <!-- Hardcoded Package in Namespace -->
+    <issue id="ResAuto" severity="error" />
+
+    <!-- Misspelled namespace declaration -->
+    <issue id="NamespaceTypo" severity="error" />
+
+    <!-- Unused namespace -->
+    <issue id="UnusedNamespace" severity="error" />
+
+    <!-- Negative Margins -->
+    <issue id="NegativeMargin" severity="error" />
+
+    <!-- Nested scrolling widgets -->
+    <issue id="NestedScrolling" severity="error" />
+
+    <!-- Valid Network Security Config File -->
+    <issue id="NetworkSecurityConfig" severity="error" />
+
+    <!-- Missing Backup Pin -->
+    <issue id="MissingBackupPin" severity="error" />
+
+    <!-- Validate <pin-set> expiration attribute -->
+    <issue id="PinSetExpiry" severity="error" />
+
+    <!-- Whitespace in NFC tech lists -->
+    <issue id="NfcTechWhitespace" severity="error" />
+
+    <!-- SMS phone number missing country code -->
+    <issue id="UnlocalizedSms" severity="error" />
+
+    <!-- Incorrect ObjectAnimator Property -->
+    <issue id="ObjectAnimatorBinding" severity="error" />
+
+    <!-- Missing @Keep for Animated Properties -->
+    <issue id="AnimatorKeep" severity="error" />
+
+    <!-- Obsolete layout params -->
+    <issue id="ObsoleteLayoutParam" severity="error" />
+
+    <!-- onClick method does not exist -->
+    <issue id="OnClick" severity="error" />
+
+    <!-- Overdraw -->
+    <issue id="Overdraw" severity="error" />
+
+    <!-- Method considered overridden by Dalvik -->
+    <issue id="DalvikOverride" severity="error" />
+
+    <!-- Not overriding abstract methods on older platforms -->
+    <issue id="OverrideAbstract" severity="error" />
+
+    <!-- Missing Parcelable CREATOR field -->
+    <issue id="ParcelCreator" severity="error" />
+
+    <!-- Unused quantity translations -->
+    <issue id="UnusedQuantity" severity="error" />
+
+    <!-- Missing quantity translation -->
+    <issue id="MissingQuantity" severity="error" />
+
+    <!-- Implied Quantities -->
+    <issue id="ImpliedQuantity" severity="error" />
+
+    <!-- PreferenceActivity should not be exported -->
+    <issue id="ExportedPreferenceActivity" severity="error" />
+
+    <!-- Packaged private key -->
+    <issue id="PackagedPrivateKey" severity="error" />
+
+    <!-- Using private resources -->
+    <issue id="PrivateResource" severity="error" />
+
+    <!-- Proguard.cfg file contains generic Android rules -->
+    <issue id="ProguardSplit" severity="error" />
+
+    <!-- Using obsolete ProGuard configuration -->
+    <issue id="Proguard" severity="error" />
+
+    <!-- Incorrect property escapes -->
+    <issue id="PropertyEscape" severity="error" />
+
+    <!-- Using HTTP instead of HTTPS -->
+    <issue id="UsingHttp" severity="error" />
+
+    <!-- Using dp instead of sp for text sizes -->
+    <issue id="SpUsage" severity="error" />
+
+    <!-- Using mm or in dimensions -->
+    <issue id="InOrMmUsage" severity="error" />
+
+    <!-- Using 'px' dimension -->
+    <issue id="PxUsage" severity="error" />
+
+    <!-- Text size is too small -->
+    <issue id="SmallSp" severity="error" />
+
+    <!-- Default Parcel Class Loader -->
+    <issue id="ParcelClassLoader" severity="error" />
+
+    <!-- Missing Pending Bindings -->
+    <issue id="PendingBindings" severity="error" />
+
+    <!-- RecyclerView Problems -->
+    <issue id="RecyclerView" severity="error" />
+
+    <!-- Class is not registered in the manifest -->
+    <issue id="Registered" severity="error" />
+
+    <!-- Overlapping items in RelativeLayout -->
+    <issue id="RelativeOverlap" severity="error" />
+
+    <!-- Missing layout_width or layout_height attributes -->
+    <issue id="RequiredSize" severity="error" />
+
+    <!-- Potential AAPT crash -->
+    <issue id="AaptCrash" severity="error" />
+
+    <!-- Cycle in resource definitions -->
+    <issue id="ResourceCycle" severity="error" />
+
+    <!-- Resource with Wrong Prefix -->
+    <issue id="ResourceName" severity="error" />
+
+    <!-- Invalid Restrictions Descriptor -->
+    <issue id="ValidRestrictions" severity="error" />
+
+    <!-- Right-to-left text compatibility issues -->
+    <issue id="RtlCompat" severity="error" />
+
+    <!-- Using RTL attributes without enabling RTL support -->
+    <issue id="RtlEnabled" severity="error" />
+
+    <!-- Padding and margin symmetry -->
+    <issue id="RtlSymmetry" severity="error" />
+
+    <!-- Using left/right instead of start/end attributes -->
+    <issue id="RtlHardcoded" severity="error" />
+
+    <!-- ScrollView size validation -->
+    <issue id="ScrollViewSize" severity="error" />
+
+    <!-- Hardcoded reference to /sdcard -->
+    <issue id="SdCardPath" severity="error" />
+
+    <!-- Using a fixed seed with SecureRandom -->
+    <issue id="SecureRandom" severity="error" />
+
+    <!-- Weak RNG -->
+    <issue id="TrulyRandom" severity="error" />
+
+    <!-- Content provider does not require permission -->
+    <issue id="ExportedContentProvider" severity="error" />
+
+    <!-- Receiver does not require permission -->
+    <issue id="ExportedReceiver" severity="error" />
+
+    <!-- Exported service does not require permission -->
+    <issue id="ExportedService" severity="error" />
+
+    <!-- File.setReadable() used to make file world-readable -->
+    <issue id="SetWorldReadable" severity="error" />
+
+    <!-- File.setWritable() used to make file world-writable -->
+    <issue id="SetWorldWritable" severity="error" />
+
+    <!-- Content provider shares everything -->
+    <issue id="GrantAllUris" severity="error" />
+
+    <!-- openFileOutput() or similar call passing -->
+    <issue id="WorldReadableFiles" severity="error" />
+
+    <!-- openFileOutput() or similar call passing -->
+    <issue id="WorldWriteableFiles" severity="error" />
+
+    <!-- Wrong system service casts -->
+    <issue id="ServiceCast" severity="error" />
+
+    <!-- WifiManager Leak -->
+    <issue id="WifiManagerLeak" severity="error" />
+
+    <!-- WifiManager Potential Leak -->
+    <issue id="WifiManagerPotentialLeak" severity="error" />
+
+    <!-- Using setJavaScriptEnabled -->
+    <issue id="SetJavaScriptEnabled" severity="error" />
+
+    <!-- signatureOrSystem permissions declared -->
+    <issue id="SignatureOrSystemPermissions" severity="error" />
+
+    <!-- Using STRING instead of TEXT -->
+    <issue id="SQLiteString" severity="error" />
+
+    <!-- Insecure call to -->
+    <issue id="SSLCertificateSocketFactoryCreateSocket" severity="error" />
+
+    <!-- Call to -->
+    <issue id="SSLCertificateSocketFactoryGetInsecure" severity="error" />
+
+    <!-- Unreachable state in a <selector> -->
+    <issue id="StateListReachable" severity="error" />
+
+    <!-- Code might contain an auth leak -->
+    <issue id="AuthLeak" severity="error" />
+
+    <!-- Formatting argument types incomplete or inconsistent -->
+    <issue id="StringFormatCount" severity="error" />
+
+    <!-- String.format string doesn't match the XML format -->
+    <issue id="StringFormatMatches" severity="error" />
+
+    <!-- Invalid format string -->
+    <issue id="StringFormatInvalid" severity="error" />
+
+    <!-- Potential Plurals -->
+    <issue id="PluralsCandidate" severity="error" />
+
+    <!-- Using the result of check permission calls -->
+    <issue id="UseCheckPermission" severity="error" />
+
+    <!-- Ignoring results -->
+    <issue id="CheckResult" severity="error" />
+
+    <!-- Should pass resolved color instead of resource id -->
+    <issue id="ResourceAsColor" severity="error" />
+
+    <!-- Missing Permissions -->
+    <issue id="MissingPermission" severity="error" />
+
+    <!-- Outside Range -->
+    <issue id="Range" severity="error" />
+
+    <!-- Wrong Resource Type -->
+    <issue id="ResourceType" severity="error" />
+
+    <!-- Restricted API -->
+    <issue id="RestrictedApi" severity="error" />
+
+    <!-- Wrong Thread -->
+    <issue id="WrongThread" severity="error" />
+
+    <!-- Incorrect constant -->
+    <issue id="WrongConstant" severity="error" />
+
+    <!-- Visible Only For Tests -->
+    <issue id="VisibleForTests" severity="error" />
+
+    <!-- Using system app permission -->
+    <issue id="ProtectedPermissions" severity="error" />
+
+    <!-- Missing inputType or hint -->
+    <issue id="TextFields" severity="error" />
+
+    <!-- TextView should probably be an EditText instead -->
+    <issue id="TextViewEdits" severity="error" />
+
+    <!-- Dynamic text should probably be selectable -->
+    <issue id="SelectableText" severity="error" />
+
+    <!-- Missing menu title -->
+    <issue id="MenuTitle" severity="error" />
+
+    <!-- Toast created but not shown -->
+    <issue id="ShowToast" severity="error" />
+
+    <!-- Layout hierarchy is too deep -->
+    <issue id="TooDeepLayout" severity="error" />
+
+    <!-- Layout has too many views -->
+    <issue id="TooManyViews" severity="error" />
+
+    <!-- Extra translation -->
+    <issue id="ExtraTranslation" severity="error" />
+
+    <!-- Incomplete translation -->
+    <issue id="MissingTranslation" severity="error" />
+
+    <!-- Spelling error -->
+    <issue id="Typos" severity="error" />
+
+    <!-- Hyphen can be replaced with dash -->
+    <issue id="TypographyDashes" severity="error" />
+
+    <!-- Ellipsis string can be replaced with ellipsis character -->
+    <issue id="TypographyEllipsis" severity="error" />
+
+    <!-- Fraction string can be replaced with fraction -->
+    <issue id="TypographyFractions" severity="error" />
+
+    <!-- Other typographical problems -->
+    <issue id="TypographyOther" severity="error" />
+
+    <!-- Straight quotes can be replaced with curvy quotes -->
+    <issue id="TypographyQuotes" severity="error" />
+
+    <!-- Unsafe Protected BroadcastReceiver -->
+    <issue id="UnsafeProtectedBroadcastReceiver" severity="error" />
+
+    <!-- Unprotected SMS BroadcastReceiver -->
+    <issue id="UnprotectedSMSBroadcastReceiver" severity="error" />
+
+    <!-- Unused resources -->
+    <issue id="UnusedResources" severity="error" />
+
+    <!-- Unused id -->
+    <issue id="UnusedIds" severity="error" />
+
+    <!-- Node can be replaced by a TextView with compound -->
+    <issue id="UseCompoundDrawables" severity="error" />
+
+    <!-- Useless leaf layout -->
+    <issue id="UselessLeaf" severity="error" />
+
+    <!-- Useless parent layout -->
+    <issue id="UselessParent" severity="error" />
+
+    <!-- Encoding used in resource files is not UTF-8 -->
+    <issue id="EnforceUTF8" severity="error" />
+
+    <!-- Vector Image Generation -->
+    <issue id="VectorRaster" severity="error" />
+
+    <!-- Using VectorDrawableCompat -->
+    <issue id="VectorDrawableCompat" severity="error" />
+
+    <!-- Missing View constructors for XML inflation -->
+    <issue id="ViewConstructor" severity="error" />
+
+    <!-- View Holder Candidates -->
+    <issue id="ViewHolder" severity="error" />
+
+    <!-- Tagged object leaks -->
+    <issue id="ViewTag" severity="error" />
+
+    <!-- Mismatched view type -->
+    <issue id="WrongViewCast" severity="error" />
+
+    <!-- Incorrect WakeLock usage -->
+    <issue id="Wakelock" severity="error" />
+
+    <!-- WebViews in wrap_content parents -->
+    <issue id="WebViewLayout" severity="error" />
+
+    <!-- Using wrong draw/layout method -->
+    <issue id="WrongCall" severity="error" />
+
+    <!-- Wrong case for view tag -->
+    <issue id="WrongCase" severity="error" />
+
+    <!-- Invalid ID declaration -->
+    <issue id="InvalidId" severity="error" />
+
+    <!-- RelativeLayout Invalid Constraints -->
+    <issue id="NotSibling" severity="error" />
+
+    <!-- Reference to an unknown id -->
+    <issue id="UnknownId" severity="error" />
+
+    <!-- Reference to an id that is not in the current layout -->
+    <issue id="UnknownIdInLayout" severity="error" />
+
+    <!-- 'import android.R' statement -->
+    <issue id="SuspiciousImport" severity="error" />
+
+    <!-- Resource file in the wrong res folder -->
+    <issue id="WrongFolder" severity="error" />
+</lint>
